@@ -1,5 +1,7 @@
 import ColorHarmonizer from "./components/ColorHarmonizer"
 import ContrastChecker from "./components/ContrastChecker"
+import GeometricColor from "./components/GeometricColor"
+import RandomGeometricColor from "./components/RandomGeometricColor"
 
 function App() {
 
@@ -10,6 +12,12 @@ function App() {
       <hr />
       
       <ContrastChecker />
+      <hr />
+
+      <GeometricColor />
+      <hr />
+
+      <RandomGeometricColor />
     </div>
    
   )

@@ -2,6 +2,7 @@ import ColorHarmonizer from "./components/ColorHarmonizer"
 import ContrastChecker from "./components/ContrastChecker"
 import GeometricColor from "./components/GeometricColor"
 import RandomGeometricColor from "./components/RandomGeometricColor"
+import TetrahedronColor from "./components/TetrahedronColor"
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
       <hr />
 
       <RandomGeometricColor />
+      <hr />
+
+      <TetrahedronColor />
     </div>
    
   )
